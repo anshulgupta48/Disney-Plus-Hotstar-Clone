@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ Hotstar - Watch TV Shows & Movies Online</title>
+    <link rel="shortcut icon" href="Assets/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- <======== Navbar Section ========> -->
+        <div id="navbar">
+            <div class="left-navigation">
+                <img src="Assets/logo.svg" alt="Disney+ Hotstar">
+            </div>
+
+            <div class="middle-navigation">
+                <ul>
+                    <li>TV</li>
+                    <li>Movies</li>
+                    <li>Sports</li>
+                    <li>Premium</li>
+                    <li>Disney+</li>
+                    <li><img src="Assets/kids.svg" alt="Kids"></li>
+                </ul>
+            </div>
+
+            <div class="right-navigation">
+                <input type="text" placeholder="Search">
+                <button class="subscribe">Subscribe</button>
+                <a href="" class="login">Login</a>
+            </div>
+        </div>
+
+
+        <!-- <======== Carousel-Container Section ========> -->
+        <div id="carousel-container">
+            <div class="carousel-container-box" data-aos="fade-left">
+                <img src="Assets/carousel-1.png" alt="Carousel-1">
+
+                <div class="carousel-container-box-content">
+                    <h1 class="movie-title">Falcon And The Winter Soldier</h1>
+                    <p class="movie-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+                        nobis veniam fugiat ea laboriosam aspernatur est molestias explicabo! Officia asperiores
+                        repellendus explicabo!</p>
+                </div>
+            </div>
+
+            <div class="carousel-container-box" data-aos="fade-left">
+                <img src="Assets/carousel-2.png" alt="Carousel-2">
+
+                <div class="carousel-container-box-content">
+                    <h1 class="movie-title">Raya And The Last Dragon</h1>
+                    <p class="movie-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+                        nobis veniam fugiat ea laboriosam aspernatur est molestias explicabo! Officia asperiores
+                        repellendus explicabo!</p>
+                </div>
+            </div>
+
+            <div class="carousel-container-box" data-aos="fade-left">
+                <img src="Assets/carousel-3.png" alt="Carousel-3">
+
+                <div class="carousel-container-box-content">
+                    <h1 class="movie-title">Loki</h1>
+                    <p class="movie-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+                        nobis veniam fugiat ea laboriosam aspernatur est molestias explicabo! Officia asperiores
+                        repellendus explicabo!</p>
+                </div>
+            </div>
+
+            <div class="carousel-container-box" data-aos="fade-left">
+                <img src="Assets/carousel-4.png" alt="Carousel-4">
+
+                <div class="carousel-container-box-content">
+                    <h1 class="movie-title">Luca</h1>
+                    <p class="movie-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+                        nobis veniam fugiat ea laboriosam aspernatur est molestias explicabo! Officia asperiores
+                        repellendus explicabo!</p>
+                </div>
+            </div>
+
+            <div class="carousel-container-box" data-aos="fade-left">
+                <img src="Assets/carousel-5.png" alt="Carousel-5">
+
+                <div class="carousel-container-box-content">
+                    <h1 class="movie-title">Wanda Vision</h1>
+                    <p class="movie-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+                        nobis veniam fugiat ea laboriosam aspernatur est molestias explicabo! Officia asperiores
+                        repellendus explicabo!</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <======== Video-Cards-Container Section ========> -->
+        <div id="video-cards-container">
+            <div class="video-card-box">
+                <img src="Assets/disney-image.png" alt="Disney" class="video-card-box-image">
+                <video src="Assets/disney-video.mp4" muted loop autoplay class="video-card-box-video"></video>
+            </div>
+
+            <div class="video-card-box">
+                <img src="Assets/pixar-image.png" alt="Pixar" class="video-card-box-image">
+                <video src="Assets/pixar-video.mp4" muted loop autoplay class="video-card-box-video"></video>
+            </div>
+
+            <div class="video-card-box">
+                <img src="Assets/marvel-image.png" alt="Marvel" class="video-card-box-image">
+                <video src="Assets/marvel-video.mp4" muted loop autoplay class="video-card-box-video"></video>
+            </div>
+
+            <div class="video-card-box">
+                <img src="Assets/starwars-image.png" alt="Star-Wars" class="video-card-box-image">
+                <video src="Assets/starwars-video.mp4" muted loop autoplay class="video-card-box-video"></video>
+            </div>
+
+            <div class="video-card-box">
+                <img src="Assets/geographic-image.png" alt="Geographic" class="video-card-box-image">
+                <video src="Assets/geographic-video.mp4" muted loop autoplay class="video-card-box-video"></video>
+            </div>
+        </div>
+
+
+        <!-- <======== Recommendation-Container Section ========> -->
+        <div id="movies-card-container">
+            <h2>Recommended For You</h2>
+
+            <div class="movies-card-container-slider">
+                <div class="prev-btn">
+                    <img src="Assets/previous.png" alt="<">
+                </div>
+
+                <div class="movies-card-container-slider-content">
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-1.webp" alt="Chhichhore">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Chhichhore</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-2.png" alt="Avengers Endgame">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Avengers Endgame</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-3.png" alt="Ford vs Ferrari">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Ford vs Ferrari</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-4.png" alt="Mulan">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Mulan</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-5.png" alt="Loki">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Loki</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-6.png" alt="Thor Ragnarok">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Thor Ragnarok</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-7.png" alt="Avengers">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Avengers</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-8.webp" alt="Ok Computer">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Ok Computer</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-9.webp" alt="Dil Bechara">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Dil Bechara</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-10.png" alt="Soul">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Soul</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-11.webp" alt="The Office">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>The Office</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-12.png" alt="Luca">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Luca</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-13.png" alt="Dark Phoenix">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Dark Phoenix</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-14.webp" alt="Tanhaji">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Tanhaji</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/recommended-15.webp" alt="Euphoria">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Euphoria</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="next-btn">
+                    <img src="Assets/next.png" alt=">">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <======== Popular-Shows-Container Section ========> -->
+        <div id="movies-card-container">
+            <h2>Popular Shows</h2>
+
+            <div class="movies-card-container-slider">
+                <div class="prev-btn">
+                    <img src="Assets/previous.png" alt="<">
+                </div>
+
+                <div class="movies-card-container-slider-content">
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-1.webp" alt="Ye Rishta Kya Kehlata hai">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Ye Rishta Kya..</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-2.webp" alt="Anupama">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Anupama</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-3.webp" alt="Imlie">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Imlie</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-4.webp" alt="City of Dreams">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>City of Dreams</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-5.webp" alt="Shinchan">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Shinchan</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-6.webp" alt="Doraemon">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Doraemon</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-7.webp" alt="Mahadev">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Mahadev</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-8.webp" alt="Grahan">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Grahan</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-9.webp" alt="Pandya Store">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Pandya Store</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-10.png" alt="Luca">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Luca</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-11.webp" alt="Mahabharat">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Mahabharat</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-12.webp" alt="RadhaKrishn">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>RadhaKrishn</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-13.webp" alt="Phineas and Ferb">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Phineas and Ferb</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-14.png" alt="Loki">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Loki</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-15.webp" alt="Special Ops">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Special Ops</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-16.webp" alt="Hostages">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Hostages</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/popular-17.webp" alt="Criminal Justice">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Criminal Justice</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="next-btn">
+                    <img src="Assets/next.png" alt=">">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <======== New-Releases-Container Section ========> -->
+        <div id="movies-card-container">
+            <h2>New Releases</h2>
+
+            <div class="movies-card-container-slider">
+                <div class="prev-btn">
+                    <img src="Assets/previous.png" alt="<">
+                </div>
+
+                <div class="movies-card-container-slider-content">
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-1.webp" alt="Collar Bomb">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Collar Bomb</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-2.webp" alt="Wanda Vision">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Wanda Vision</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-3.webp" alt="Carbon">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Carbon</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-4.webp" alt="Hungama 2">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Hungama 2</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-5.webp" alt="Legend Hanuman">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Legend Hanuman</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-6.webp" alt="Boys Don't Cry">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Boys Don't Cry</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-7.webp" alt="Shaadisthan">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Shaadisthan</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-8.png" alt="Loki">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Loki</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-9.webp" alt="Love, Simon">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Love, Simon</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-10.webp" alt="Betty">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Betty</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-11.webp" alt="Chhuri">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Chhuri</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-12.webp" alt="Cars 3">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Cars 3</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-13.webp" alt="Pose">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Pose</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-14.webp" alt="Modern Family">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Modern Family</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-15.webp" alt="Brave">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Brave</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="movies-card-container-slider-content-box">
+                        <img src="Assets/new-16.webp" alt="Dil Bechara">
+
+                        <div class="movies-card-container-slider-content-box-text">
+                            <h2>Dil Bechara</h2>
+                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+
+                            <button class="watchlist-btn">
+                                <img src="Assets/add.png" alt="+">
+                                Add to WatchList
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="next-btn">
+                    <img src="Assets/next.png" alt=">">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <======== Footer Section ========> -->
+        <div id="footer">
+            <p>Copyright &copy; 2023 <span>Disney+ Hotstar</span> | All Rights Reserved</p>
+            <p>Design & Developed by <span>Anshul Gupta</span></p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
